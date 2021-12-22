@@ -1,0 +1,109 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&display=swap');
+
+body{
+    background-color: rgb(187, 181, 181);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Karla', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 50px;
+    background-color:black;
+    color:white;
+}
+
+nav ul li{
+    padding:0px 23px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+nav ul li img{
+    height:50px;
+    width: 50px;
+}
+
+.container{
+    min-height: 90vh;
+    color:white;
+    display:flex;
+    width: 90%;
+    margin: 23px auto; 
+    padding: 34px;
+    background-image: url(background2.png); 
+
+}
+
+.bottom{
+    position: sticky;
+    height:100px;
+    background-color: black;
+    /* bottom: 0; */
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+
+}
+
+.icons
+{
+    margin-top:13px;
+}
+
+#myprogressbar{
+    width: 80%;
+    margin-top:10px
+}
+
+.songitemcontainer{
+    margin: 51px -20px;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 90%;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 61px;
+}
+
+.songitem img{
+    width: 40px;
+}
+
+.songitem{
+    margin: 13px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    display:flex;
+    position: absolute;
+    left:10%;
+    margin: 23px 0px;
+}
+
+.songinfo img{
+    width: 70px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
